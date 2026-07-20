@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Universal Remote Control</string>
+
+    <string name="dashboard_title">My Devices</string>
+    <string name="dashboard_empty">You haven\'t added any devices yet. Tap + to get started.</string>
+    <string name="add_device_fab">Add device</string>
+    <string name="last_used">Last used: %1$s</string>
+    <string name="device_type_ir">IR</string>
+    <string name="device_type_wifi">WiFi</string>
+    <string name="device_type_hybrid">Hybrid</string>
+
+    <string name="add_device_title">Add New Device</string>
+    <string name="select_category">Select device type</string>
+    <string name="select_brand">Select brand</string>
+    <string name="select_model">Select model (optional)</string>
+    <string name="device_name_hint">Device name (e.g. Living Room TV)</string>
+    <string name="connection_type">Connection type</string>
+    <string name="ir_no_blaster_warning">No IR blaster found on this device. Only WiFi devices can be added.</string>
+    <string name="wifi_ip_hint">IP address</string>
+    <string name="wifi_mac_hint">MAC address (for Wake-on-LAN)</string>
+    <string name="learn_ir_code">Learn IR code</string>
+    <string name="manual_ir_code">Enter code manually</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="power">Power</string>
+    <string name="volume_up">Volume up</string>
+    <string name="volume_down">Volume down</string>
+    <string name="mute">Mute</string>
+    <string name="channel_up">Channel up</string>
+    <string name="channel_down">Channel down</string>
+    <string name="mode">Mode</string>
+    <string name="temperature">Temperature</string>
+    <string name="swing">Swing</string>
+    <string name="fan_speed">Fan speed</string>
+    <string name="home">Home</string>
+    <string name="back">Back</string>
+    <string name="settings_button">Settings</string>
+    <string name="ok_button">OK</string>
+    <string name="ir_not_available">No IR transmitter on this device, command not sent.</string>
+    <string name="command_sent">Command sent: %1$s</string>
+
+    <string name="favorites_title">Favorites</string>
+    <string name="macros_title">Macros</string>
+    <string name="create_macro">Create macro</string>
+    <string name="macro_name_hint">Macro name (e.g. Movie Mode)</string>
+    <string name="add_step">Add step</string>
+    <string name="run_macro">Run</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_backup">Backup (export JSON)</string>
+    <string name="settings_restore">Restore (import JSON)</string>
+    <string name="settings_debug_mode">Debug mode</string>
+    <string name="settings_permissions">Permission management</string>
+    <string name="settings_about">About</string>
+
+    <string name="quick_tile_label">Quick Remote</string>
+    <string name="widget_default_device">No device selected</string>
+
+    <string name="error_generic">Something went wrong, please try again.</string>
+    <string name="error_network">Could not reach the device over the network.</string>
+    <string name="error_permission_denied">This feature requires a permission.</string>
+</resources>

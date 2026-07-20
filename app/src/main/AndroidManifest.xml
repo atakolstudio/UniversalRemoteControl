@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- IR blaster -->
+    <uses-permission android:name="android.permission.TRANSMIT_IR" />
+    <uses-feature
+        android:name="android.hardware.consumerir"
+        android:required="false" />
+
+    <!-- Network / WiFi cihaz kontrolü -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Geri bildirim -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- IR öğrenme (opsiyonel mikrofon tabanlı yardımcı) -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- Yedekleme / dışa aktarma (Android 13+ için granular medya izinleri) -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:name=".UniversalRemoteApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:localeConfig="@xml/locales_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UniversalRemoteControl"
+        tools:targetApi="36">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.UniversalRemoteControl">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Hızlı Ayarlar Tile: en son kullanılan makroyu / cihazı tetikler -->
+        <service
+            android:name=".util.QuickMacroTileService"
+            android:exported="true"
+            android:icon="@drawable/ic_remote"
+            android:label="@string/quick_tile_label"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <!-- Ana ekran widget'ı: en çok kullanılan cihaz için hızlı erişim -->
+        <receiver
+            android:name=".util.RemoteWidgetProvider"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/remote_widget_info" />
+        </receiver>
+
+    </application>
+
+</manifest>

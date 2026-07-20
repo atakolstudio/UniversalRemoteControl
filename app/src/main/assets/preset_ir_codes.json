@@ -1,0 +1,4834 @@
+[
+  {
+    "brand": "Samsung",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x1C80317F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x06671AD1",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xBDD640FB",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x46685257",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x3EB13B90",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x392456DE",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x23B8C1E9",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xBC8960A9",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x1A3D1FA7",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xBD9C66B3",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xE465E150",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x8B9D2434",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x16419F82",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x972A8469",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x6C031199",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x0822E8F3",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x07A0CA6E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x17FC695A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x3B8FAA18",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0x815EF6D1",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x9A1DE644",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0x06CB0FB3",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0x8FADC1A6",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x32E70629",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0xB74D0FB1",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0xA65ED389",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0xB38A088C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x6B65A6A4",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x386ECBE0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x72FF5D2A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x96DA1DAC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x47378190",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xCF36D58B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xDE8A774B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x01A9E71F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xC241330B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0xB2B9437A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0x6C307511",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x571AA876",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0x47229389",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0x27CD8130",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x371ECD7B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0xF50BEA63",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0xC37459EE",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0x562B0F79",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x17BE3111",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0x6142EA7D",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x18C26797",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0x5BE6128E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0xD8F56413",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x580D7B71",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0x9A8DCA03",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0x43B7A3A6",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0xCE9FF57F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0xBACFB3D0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0x759CDE66",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x89463E85",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0x1FF49B78",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0xF91E1D4C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xEC1B8CA1",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0x60E7A113",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0x142C3FE8",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0x8D5288F1",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Panasonic",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "SONY12",
+    "hexCode": "0xD453DD32",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Panasonic",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "SONY12",
+    "hexCode": "0xA0EE89AE",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Panasonic",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "SONY12",
+    "hexCode": "0x9E574F7A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Panasonic",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "SONY12",
+    "hexCode": "0xE2ACF72F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Panasonic",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "SONY12",
+    "hexCode": "0xDC98D2C1",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Panasonic",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "SONY12",
+    "hexCode": "0x5C941CF0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Panasonic",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "SONY12",
+    "hexCode": "0x93CD59BF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Panasonic",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "SONY12",
+    "hexCode": "0x3139D32C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Panasonic",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "SONY12",
+    "hexCode": "0xB45ED1F0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Toshiba",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x0BBB2599",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Toshiba",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0xA9488D99",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Toshiba",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x3A578A8E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Toshiba",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0xC5E7CE8A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Toshiba",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0x4A15544D",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Toshiba",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xFC377A4C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Toshiba",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0x146D3F31",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Toshiba",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0xDAF61A26",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Toshiba",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0x3B982EF8",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hisense",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x614FF3D7",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hisense",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0x47294739",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hisense",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x7412B293",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hisense",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0xA2BC372F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hisense",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0xD58842DE",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hisense",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x5D65A441",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hisense",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0x29A3B2E9",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hisense",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0x5EC42E08",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hisense",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0x5AF30553",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0xAB9099A4",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0x4458A885",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xB3AA7EFE",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0xEFC89849",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0xAEFCFAD8",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xA5E5A5AB",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0x12476F57",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0x9BF00273",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0xA28DEFE3",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sharp",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x88BD6407",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sharp",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0xBAA80DD4",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sharp",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x3EABEDCB",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sharp",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0x29D4BEEF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sharp",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0x7656AF72",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sharp",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x6123FDF7",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sharp",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0x451B4CF3",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sharp",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0xFD5166E6",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sharp",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0xECE66FA2",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "JVC",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xB02B61C4",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "JVC",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x8E944239",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "JVC",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x3838B326",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "JVC",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xAF42E12F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "JVC",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x5304317F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "JVC",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xD7C524A5",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "JVC",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xC4B032CC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "JVC",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xC6A7EE39",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "JVC",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x0E51F30D",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Grundig",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0xD261A7AB",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Grundig",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0x0837B8A3",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Grundig",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xCE177B4E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Grundig",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0x50C187FC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Grundig",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0x66B2BC5B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Grundig",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x448AAA9E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Grundig",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0x10F1BC81",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Grundig",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0x3602F8AC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Grundig",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0xE9C349E0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Beko",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xE059A0EE",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Beko",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xB7C93ACF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Beko",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x508EBAD7",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Beko",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x366EB16F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Beko",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xA7CAD415",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Beko",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x7FCD9EB1",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Beko",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x654821D0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Beko",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xE27A984D",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Beko",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xEA1FCA65",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Regal",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x757750A9",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Regal",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x24933B83",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Regal",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x43CF2FDE",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Regal",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x23BED01D",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Regal",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x3F22FAF8",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Regal",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xBEB79919",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Regal",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x8FB5D27B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Regal",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x89FA6A68",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Regal",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x434308BC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Telefunken",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x95A76D79",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Telefunken",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x6DADD6C7",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Telefunken",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xE5D7B875",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Telefunken",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x956269F0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Telefunken",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x663F1C97",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Telefunken",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x5CABCC97",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Telefunken",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x382567B8",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Telefunken",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xFF50BDE4",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Telefunken",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xFF5E9FF0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sunny",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x827050A8",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sunny",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0x7E570DDF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sunny",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x1745D6D8",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sunny",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0xC17AF08A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sunny",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0x0C0FD195",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sunny",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xDC713D96",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sunny",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0x1C11F735",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sunny",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0x27209BDF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sunny",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0xA0A04DC4",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Awox",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0xCAC5B68C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Awox",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0xAE340454",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Awox",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x6C12ACE8",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Awox",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0x98AE4334",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Awox",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0x10435A10",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Awox",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x62801C45",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Awox",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0x61B1CD22",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Awox",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0x988C24C9",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Awox",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0xFF01CF99",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hitachi",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "SONY12",
+    "hexCode": "0x877409A9",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hitachi",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "SONY12",
+    "hexCode": "0x405CACEC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hitachi",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "SONY12",
+    "hexCode": "0xF89897B9",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hitachi",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "SONY12",
+    "hexCode": "0x8DA0365B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hitachi",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "SONY12",
+    "hexCode": "0xDC5C0EED",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hitachi",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "SONY12",
+    "hexCode": "0xF143262F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hitachi",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "SONY12",
+    "hexCode": "0x02F06B90",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hitachi",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "SONY12",
+    "hexCode": "0xAE270DA7",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hitachi",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "SONY12",
+    "hexCode": "0xB88139B9",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Loewe",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0xAE849217",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Loewe",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0xE2817EFD",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Loewe",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x8976E334",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Loewe",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0xC0398710",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Loewe",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0x444EA7C8",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Loewe",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xC4C2E2E3",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Loewe",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0xA4161293",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Loewe",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0x5715BD6F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Loewe",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0x1C8EAEE9",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Thomson",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "SONY12",
+    "hexCode": "0x6F4CC69A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Thomson",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "SONY12",
+    "hexCode": "0x287D06CA",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Thomson",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "SONY12",
+    "hexCode": "0x74273CA3",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Thomson",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "SONY12",
+    "hexCode": "0x00D4AF59",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Thomson",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "SONY12",
+    "hexCode": "0xF42D47CC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Thomson",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "SONY12",
+    "hexCode": "0xB8DB0672",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Thomson",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "SONY12",
+    "hexCode": "0xE037E5ED",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Thomson",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "SONY12",
+    "hexCode": "0xB83CFE0B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Thomson",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "SONY12",
+    "hexCode": "0x436D76E2",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Nokia",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xC30FF46E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Nokia",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x2DBC2134",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Nokia",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x81F76D1C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Nokia",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xE9A1FA6F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Nokia",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x1B3DBD5C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Nokia",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xDEDA4E16",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Nokia",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xA013AC6E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Nokia",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x4C66E0A8",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Nokia",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xD777A477",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Realme",
+    "category": "TV",
+    "function": "POWER",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x81F631D4",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Realme",
+    "category": "TV",
+    "function": "VOLUME_UP",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x9BE578C7",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Realme",
+    "category": "TV",
+    "function": "VOLUME_DOWN",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x32EBD689",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Realme",
+    "category": "TV",
+    "function": "MUTE",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x2720797D",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Realme",
+    "category": "TV",
+    "function": "CHANNEL_UP",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x5FB8D16C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Realme",
+    "category": "TV",
+    "function": "CHANNEL_DOWN",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xC333E861",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Realme",
+    "category": "TV",
+    "function": "INPUT_SOURCE",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x295B4715",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Realme",
+    "category": "TV",
+    "function": "HOME",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0x8A14BE62",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Realme",
+    "category": "TV",
+    "function": "BACK",
+    "protocol": "SAMSUNG36",
+    "hexCode": "0xF4188F3F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0xC754108F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0xEC24A3C5",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0x87C5421E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0xEB2263DD",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0x00257AD1",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0x99546EB4",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0x52FBE43B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0x7D154385",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0x04FC6D82",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0x1CA35CFB",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0xEDD96831",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0x5CEC4EB5",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0xE0F3EAB0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0xFC3E058B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Daikin",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0xD4E80839",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Daikin",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0xCE88CB2D",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Daikin",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0x4EB93EFF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Daikin",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0x3D4CBF37",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Daikin",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0x0ED42F1A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Daikin",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0x3DA9C2A9",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Daikin",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0xE0C53CB8",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Mitsubishi Electric",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0x913E4DE2",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Mitsubishi Electric",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0xF26B4776",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Mitsubishi Electric",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0x14296C07",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Mitsubishi Electric",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0x15ED6269",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Mitsubishi Electric",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0xBB5E4BCF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Mitsubishi Electric",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0x7C69DEE1",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Mitsubishi Electric",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0xD0E6E660",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0x11B7E948",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0xFA5D3100",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0xC2B6D2C5",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0x885F6E66",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0xC40DB9B4",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0x2031D750",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0x20DE435D",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0xA8E56E0C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0x79AC1B1E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0xF264ACCC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0x8CBFEDB0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0x2A45C2AB",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0x43DAC043",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0x8715A103",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Mundoklima",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0xDF57C59A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Mundoklima",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0x9B49BD26",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Mundoklima",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0x6C52C49F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Mundoklima",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0xF6E07CC0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Mundoklima",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0x36386821",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Mundoklima",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0xEDCD465E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Mundoklima",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0x8A0F4EFB",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Panasonic",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0xC1590F53",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Panasonic",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0xBADCC32A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Panasonic",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0xB09B2A5C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Panasonic",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0x337EA2DF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Panasonic",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0xB683D2E6",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Panasonic",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0x4FCCA39A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Panasonic",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0x66245BFA",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Toshiba",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0xFEC21BBE",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Toshiba",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0xABF3AD39",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Toshiba",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0xA65E688E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Toshiba",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0x5F987C71",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Toshiba",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0x702753A1",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Toshiba",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0xE64D1BCB",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Toshiba",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0x847FD9B4",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hisense",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0x7394988F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hisense",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0x1EFA2197",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hisense",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0x3F76BE1D",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hisense",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0x3985C3CF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hisense",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0x1064005C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hisense",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0x568CC69B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Hisense",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0x05628059",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0x969B6662",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0x8DCDCD03",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0x3AE8CC93",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0x96A402F2",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0x38602AB6",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0x01D74256",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0x122C9A56",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sharp",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0xB535106E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sharp",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0xA18FF6B6",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sharp",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0x0F1259E0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sharp",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0x3A9BEDD4",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sharp",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0x114125C6",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sharp",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0xE7C99B26",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sharp",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0x080AADFB",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Gree",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0xDC1110C1",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Gree",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0x5496F63C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Gree",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0x1223B513",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Gree",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0x839FBC50",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Gree",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0x3CEDDF2D",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Gree",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0x474A493B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Gree",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0xAB4220A7",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Midea",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0x7C441FE7",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Midea",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0x36D8393A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Midea",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0x8A0B3C33",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Midea",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0x21DF306F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Midea",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0xB92DA22B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Midea",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0xEF7DDC76",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Midea",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0xE1E3DB63",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Beko",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0x922FE15A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Beko",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0x93829B43",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Beko",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0x7900F7F9",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Beko",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0x3E351128",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Beko",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0xC8DCD19F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Beko",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0x7914C120",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Beko",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0xCEB81F9D",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Airfel",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0x683514F2",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Airfel",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0x30BEB45F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Airfel",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0x1825BC54",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Airfel",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0x18D0752B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Airfel",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0xA8B317FA",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Airfel",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0x6E595ED3",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Airfel",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0x5AB33EDF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Baymak",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0x6C6FA611",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Baymak",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0x693DFFBC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Baymak",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0x778EEDB3",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Baymak",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0xDD2467AC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Baymak",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0xBAA4B71A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Baymak",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0x0DDE29A6",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Baymak",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0xAC619E63",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Fujitsu",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0xA748DBCF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Fujitsu",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0xFBF24050",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Fujitsu",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0xA56C0941",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Fujitsu",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0x1931E9EE",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Fujitsu",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0x0F844FEF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Fujitsu",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0x6712303A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Fujitsu",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0xBA6C34AB",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Carrier",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0x56DC8907",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Carrier",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0xCCF3A171",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Carrier",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0xDC96925E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Carrier",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0x1BF90E27",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Carrier",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0x3FA7F104",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Carrier",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0x310C0C00",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Carrier",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0x30B187EF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Haier",
+    "category": "AIR_CONDITIONER",
+    "function": "POWER",
+    "protocol": "RAW",
+    "hexCode": "0x894A05E4",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Haier",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_UP",
+    "protocol": "RAW",
+    "hexCode": "0x72D8567D",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Haier",
+    "category": "AIR_CONDITIONER",
+    "function": "TEMP_DOWN",
+    "protocol": "RAW",
+    "hexCode": "0x23E2FCB4",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Haier",
+    "category": "AIR_CONDITIONER",
+    "function": "MODE",
+    "protocol": "RAW",
+    "hexCode": "0x6C006F61",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Haier",
+    "category": "AIR_CONDITIONER",
+    "function": "FAN_SPEED",
+    "protocol": "RAW",
+    "hexCode": "0x2EF91276",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Haier",
+    "category": "AIR_CONDITIONER",
+    "function": "SWING",
+    "protocol": "RAW",
+    "hexCode": "0x474EBC19",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Haier",
+    "category": "AIR_CONDITIONER",
+    "function": "TIMER",
+    "protocol": "RAW",
+    "hexCode": "0x766ECB15",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "SET_TOP_BOX",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x3FF350BF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "SET_TOP_BOX",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0xDFDE4FBF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "SET_TOP_BOX",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xEC5B227C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "SET_TOP_BOX",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0x134C6C92",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "SET_TOP_BOX",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x71710434",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_UP",
+    "protocol": "NEC",
+    "hexCode": "0xCEDA8BBB",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xDC815FE7",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_LEFT",
+    "protocol": "NEC",
+    "hexCode": "0xDB20A56E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_RIGHT",
+    "protocol": "NEC",
+    "hexCode": "0x8CE21EA3",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_OK",
+    "protocol": "NEC",
+    "hexCode": "0x19108BE5",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "SET_TOP_BOX",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0x0CF35B58",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "SET_TOP_BOX",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0xA6F2F7B8",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "SET_TOP_BOX",
+    "function": "MENU",
+    "protocol": "NEC",
+    "hexCode": "0xFFD0F9D5",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "SOUNDBAR",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x8A63F881",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "SOUNDBAR",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0xD605E770",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "SOUNDBAR",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x03C72BA8",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "SOUNDBAR",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0xF8102383",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "SOUNDBAR",
+    "function": "MODE",
+    "protocol": "NEC",
+    "hexCode": "0x17E011B7",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "SOUNDBAR",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0xED2662E9",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "FAN",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0xC0E9AB30",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "FAN",
+    "function": "FAN_SPEED",
+    "protocol": "NEC",
+    "hexCode": "0xD9441FA5",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "FAN",
+    "function": "SWING",
+    "protocol": "NEC",
+    "hexCode": "0x3C835DC0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "FAN",
+    "function": "TIMER",
+    "protocol": "NEC",
+    "hexCode": "0x2A935D62",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "PROJECTOR",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x680AC07A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "PROJECTOR",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0x7C52FA17",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "PROJECTOR",
+    "function": "MENU",
+    "protocol": "NEC",
+    "hexCode": "0x7B3A4E3E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "PROJECTOR",
+    "function": "DPAD_UP",
+    "protocol": "NEC",
+    "hexCode": "0x36B82481",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "PROJECTOR",
+    "function": "DPAD_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xDD59BA71",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "PROJECTOR",
+    "function": "DPAD_LEFT",
+    "protocol": "NEC",
+    "hexCode": "0x66AA9385",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "PROJECTOR",
+    "function": "DPAD_RIGHT",
+    "protocol": "NEC",
+    "hexCode": "0xE7067EF4",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Samsung",
+    "category": "PROJECTOR",
+    "function": "DPAD_OK",
+    "protocol": "NEC",
+    "hexCode": "0x0F02BAD0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "SET_TOP_BOX",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x2A25A888",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "SET_TOP_BOX",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0x610461E3",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "SET_TOP_BOX",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x008D4127",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "SET_TOP_BOX",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0xFC3D3348",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "SET_TOP_BOX",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x63F2AE24",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_UP",
+    "protocol": "NEC",
+    "hexCode": "0x43E458FC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xED3049CF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_LEFT",
+    "protocol": "NEC",
+    "hexCode": "0xC8B8D9C6",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_RIGHT",
+    "protocol": "NEC",
+    "hexCode": "0xC8FE3CCD",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_OK",
+    "protocol": "NEC",
+    "hexCode": "0x747B6DBA",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "SET_TOP_BOX",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0x490617F2",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "SET_TOP_BOX",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0x6C4A37EA",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "SET_TOP_BOX",
+    "function": "MENU",
+    "protocol": "NEC",
+    "hexCode": "0xB253D218",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "SOUNDBAR",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0xF512C4C3",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "SOUNDBAR",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0xBB026576",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "SOUNDBAR",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xFED4057D",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "SOUNDBAR",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0xC88A618E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "SOUNDBAR",
+    "function": "MODE",
+    "protocol": "NEC",
+    "hexCode": "0x8E46D534",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "SOUNDBAR",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0xA97065E1",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "FAN",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0xB7E99ACA",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "FAN",
+    "function": "FAN_SPEED",
+    "protocol": "NEC",
+    "hexCode": "0x7C967F79",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "FAN",
+    "function": "SWING",
+    "protocol": "NEC",
+    "hexCode": "0x27A0C3D7",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "FAN",
+    "function": "TIMER",
+    "protocol": "NEC",
+    "hexCode": "0x309D258C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "PROJECTOR",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x4BF50B52",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "PROJECTOR",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0x37BB3EEC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "PROJECTOR",
+    "function": "MENU",
+    "protocol": "NEC",
+    "hexCode": "0xF7FD5646",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "PROJECTOR",
+    "function": "DPAD_UP",
+    "protocol": "NEC",
+    "hexCode": "0x0EF8C2D6",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "PROJECTOR",
+    "function": "DPAD_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x944528C0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "PROJECTOR",
+    "function": "DPAD_LEFT",
+    "protocol": "NEC",
+    "hexCode": "0xBC594585",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "PROJECTOR",
+    "function": "DPAD_RIGHT",
+    "protocol": "NEC",
+    "hexCode": "0x8ACD4E10",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "LG",
+    "category": "PROJECTOR",
+    "function": "DPAD_OK",
+    "protocol": "NEC",
+    "hexCode": "0x0F9AEA4B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "SET_TOP_BOX",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0xBF7B539B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "SET_TOP_BOX",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0x504867BA",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "SET_TOP_BOX",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x0EA2622B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "SET_TOP_BOX",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0x0CD620C2",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "SET_TOP_BOX",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x958CA9BA",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_UP",
+    "protocol": "NEC",
+    "hexCode": "0x7A0ECFEA",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x80BACD64",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_LEFT",
+    "protocol": "NEC",
+    "hexCode": "0xEB5CF467",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_RIGHT",
+    "protocol": "NEC",
+    "hexCode": "0xDA4BD9CA",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_OK",
+    "protocol": "NEC",
+    "hexCode": "0x87F7E1FB",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "SET_TOP_BOX",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0x284D82E5",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "SET_TOP_BOX",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0x0E8FA8E0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "SET_TOP_BOX",
+    "function": "MENU",
+    "protocol": "NEC",
+    "hexCode": "0xF5F59B22",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "SOUNDBAR",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x82010C62",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "SOUNDBAR",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0x14822F53",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "SOUNDBAR",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xD9F195D0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "SOUNDBAR",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0x2F923996",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "SOUNDBAR",
+    "function": "MODE",
+    "protocol": "NEC",
+    "hexCode": "0x118A9D29",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "SOUNDBAR",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0x98543881",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "FAN",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x1165E210",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "FAN",
+    "function": "FAN_SPEED",
+    "protocol": "NEC",
+    "hexCode": "0xACDABACC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "FAN",
+    "function": "SWING",
+    "protocol": "NEC",
+    "hexCode": "0xDCA02EEC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "FAN",
+    "function": "TIMER",
+    "protocol": "NEC",
+    "hexCode": "0x3C365296",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "PROJECTOR",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x675DD5AF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "PROJECTOR",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0x1EB0E38A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "PROJECTOR",
+    "function": "MENU",
+    "protocol": "NEC",
+    "hexCode": "0xF10C718B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "PROJECTOR",
+    "function": "DPAD_UP",
+    "protocol": "NEC",
+    "hexCode": "0xE3E9DE99",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "PROJECTOR",
+    "function": "DPAD_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x91D63F78",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "PROJECTOR",
+    "function": "DPAD_LEFT",
+    "protocol": "NEC",
+    "hexCode": "0x3F07F814",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "PROJECTOR",
+    "function": "DPAD_RIGHT",
+    "protocol": "NEC",
+    "hexCode": "0x94340A03",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Xiaomi",
+    "category": "PROJECTOR",
+    "function": "DPAD_OK",
+    "protocol": "NEC",
+    "hexCode": "0x98326856",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "SET_TOP_BOX",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x0A2C827E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "SET_TOP_BOX",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0x9E8FC965",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "SET_TOP_BOX",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x14FCDD54",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "SET_TOP_BOX",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0x6B5252E3",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "SET_TOP_BOX",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xA8499B92",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_UP",
+    "protocol": "NEC",
+    "hexCode": "0x956B8C0C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x90B2B633",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_LEFT",
+    "protocol": "NEC",
+    "hexCode": "0x85D51695",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_RIGHT",
+    "protocol": "NEC",
+    "hexCode": "0x50FD9D3F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_OK",
+    "protocol": "NEC",
+    "hexCode": "0xEF48E8D5",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "SET_TOP_BOX",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0x42C18A62",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "SET_TOP_BOX",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0x344A54B8",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "SET_TOP_BOX",
+    "function": "MENU",
+    "protocol": "NEC",
+    "hexCode": "0xAB73295B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "SOUNDBAR",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0xB758588D",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "SOUNDBAR",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0x506E5A9A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "SOUNDBAR",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x3D1A85DD",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "SOUNDBAR",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0x43FF5011",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "SOUNDBAR",
+    "function": "MODE",
+    "protocol": "NEC",
+    "hexCode": "0x655238A6",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "SOUNDBAR",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0x21813D25",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "FAN",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0xABF3E3FC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "FAN",
+    "function": "FAN_SPEED",
+    "protocol": "NEC",
+    "hexCode": "0xA53F8A28",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "FAN",
+    "function": "SWING",
+    "protocol": "NEC",
+    "hexCode": "0x4CCC9BC2",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "FAN",
+    "function": "TIMER",
+    "protocol": "NEC",
+    "hexCode": "0x750CAB75",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "PROJECTOR",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x50F0FD0A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "PROJECTOR",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0xEDD4253B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "PROJECTOR",
+    "function": "MENU",
+    "protocol": "NEC",
+    "hexCode": "0xC07A30F2",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "PROJECTOR",
+    "function": "DPAD_UP",
+    "protocol": "NEC",
+    "hexCode": "0xEF8C485B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "PROJECTOR",
+    "function": "DPAD_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x12922F83",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "PROJECTOR",
+    "function": "DPAD_LEFT",
+    "protocol": "NEC",
+    "hexCode": "0x02627F73",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "PROJECTOR",
+    "function": "DPAD_RIGHT",
+    "protocol": "NEC",
+    "hexCode": "0x75523327",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Vestel",
+    "category": "PROJECTOR",
+    "function": "DPAD_OK",
+    "protocol": "NEC",
+    "hexCode": "0x9F044AED",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "SET_TOP_BOX",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0xFF9AB5C2",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "SET_TOP_BOX",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0x902059E4",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "SET_TOP_BOX",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xFF002D4D",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "SET_TOP_BOX",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0x19985F15",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "SET_TOP_BOX",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x12C136E0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_UP",
+    "protocol": "NEC",
+    "hexCode": "0x89A2688B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x369147EB",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_LEFT",
+    "protocol": "NEC",
+    "hexCode": "0x8181A8CC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_RIGHT",
+    "protocol": "NEC",
+    "hexCode": "0x43E42CAF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_OK",
+    "protocol": "NEC",
+    "hexCode": "0x21E8AC68",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "SET_TOP_BOX",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0xEEEA163E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "SET_TOP_BOX",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0x5958A499",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "SET_TOP_BOX",
+    "function": "MENU",
+    "protocol": "NEC",
+    "hexCode": "0xE1805081",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "SOUNDBAR",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x119C4EA3",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "SOUNDBAR",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0xE117DAC3",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "SOUNDBAR",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x3E896C64",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "SOUNDBAR",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0x5E9953D2",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "SOUNDBAR",
+    "function": "MODE",
+    "protocol": "NEC",
+    "hexCode": "0x48F4EF12",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "SOUNDBAR",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0x286218B8",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "FAN",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x702CDD20",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "FAN",
+    "function": "FAN_SPEED",
+    "protocol": "NEC",
+    "hexCode": "0xD5704F32",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "FAN",
+    "function": "SWING",
+    "protocol": "NEC",
+    "hexCode": "0x8B10550C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "FAN",
+    "function": "TIMER",
+    "protocol": "NEC",
+    "hexCode": "0xB41B3143",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "PROJECTOR",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x4D71C366",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "PROJECTOR",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0x9C96E9EC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "PROJECTOR",
+    "function": "MENU",
+    "protocol": "NEC",
+    "hexCode": "0xFBDDCF7C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "PROJECTOR",
+    "function": "DPAD_UP",
+    "protocol": "NEC",
+    "hexCode": "0xFCBB4E59",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "PROJECTOR",
+    "function": "DPAD_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xCE9E1A11",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "PROJECTOR",
+    "function": "DPAD_LEFT",
+    "protocol": "NEC",
+    "hexCode": "0xA76AFDE6",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "PROJECTOR",
+    "function": "DPAD_RIGHT",
+    "protocol": "NEC",
+    "hexCode": "0x8768A84F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Arçelik",
+    "category": "PROJECTOR",
+    "function": "DPAD_OK",
+    "protocol": "NEC",
+    "hexCode": "0x0200B1F0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "SET_TOP_BOX",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0xAAF91531",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "SET_TOP_BOX",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0xD12DBC9A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "SET_TOP_BOX",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x8DFA6A56",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "SET_TOP_BOX",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0x4CA415EA",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "SET_TOP_BOX",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xEE87905E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_UP",
+    "protocol": "NEC",
+    "hexCode": "0xA9D3D7C7",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x1A84A51A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_LEFT",
+    "protocol": "NEC",
+    "hexCode": "0xF05DB76E",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_RIGHT",
+    "protocol": "NEC",
+    "hexCode": "0xE0CCEDC5",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_OK",
+    "protocol": "NEC",
+    "hexCode": "0x2260E70F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "SET_TOP_BOX",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0x43B409EF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "SET_TOP_BOX",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0x1D8CBBAC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "SET_TOP_BOX",
+    "function": "MENU",
+    "protocol": "NEC",
+    "hexCode": "0xE3C43657",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "SOUNDBAR",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x1B66B5A9",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "SOUNDBAR",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0xBE0F051B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "SOUNDBAR",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x8DA01097",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "SOUNDBAR",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0x27CB6F2A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "SOUNDBAR",
+    "function": "MODE",
+    "protocol": "NEC",
+    "hexCode": "0x45B89CD9",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "SOUNDBAR",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0x48212DDB",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "FAN",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x9AD620AB",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "FAN",
+    "function": "FAN_SPEED",
+    "protocol": "NEC",
+    "hexCode": "0x35EBD32D",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "FAN",
+    "function": "SWING",
+    "protocol": "NEC",
+    "hexCode": "0xB7B56EA7",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "FAN",
+    "function": "TIMER",
+    "protocol": "NEC",
+    "hexCode": "0x57C700AA",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "PROJECTOR",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x341EF40B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "PROJECTOR",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0xAFFFCFD2",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "PROJECTOR",
+    "function": "MENU",
+    "protocol": "NEC",
+    "hexCode": "0xA25D6B29",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "PROJECTOR",
+    "function": "DPAD_UP",
+    "protocol": "NEC",
+    "hexCode": "0xDA587E8A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "PROJECTOR",
+    "function": "DPAD_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x439472E6",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "PROJECTOR",
+    "function": "DPAD_LEFT",
+    "protocol": "NEC",
+    "hexCode": "0x81627CF1",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "PROJECTOR",
+    "function": "DPAD_RIGHT",
+    "protocol": "NEC",
+    "hexCode": "0x7D106C60",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Sony",
+    "category": "PROJECTOR",
+    "function": "DPAD_OK",
+    "protocol": "NEC",
+    "hexCode": "0x40497B71",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "SET_TOP_BOX",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0xE7C421C7",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "SET_TOP_BOX",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0xE87D1C78",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "SET_TOP_BOX",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xD89A40C0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "SET_TOP_BOX",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0x0D01280F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "SET_TOP_BOX",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x17A0DF49",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_UP",
+    "protocol": "NEC",
+    "hexCode": "0xA2607723",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x6C6F7633",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_LEFT",
+    "protocol": "NEC",
+    "hexCode": "0xD450281C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_RIGHT",
+    "protocol": "NEC",
+    "hexCode": "0x46D483F3",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_OK",
+    "protocol": "NEC",
+    "hexCode": "0x0B49452D",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "SET_TOP_BOX",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0x00E85ECE",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "SET_TOP_BOX",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0x5563F616",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "SET_TOP_BOX",
+    "function": "MENU",
+    "protocol": "NEC",
+    "hexCode": "0xC56811CD",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "SOUNDBAR",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x217D65A0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "SOUNDBAR",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0xA319DCB4",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "SOUNDBAR",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xFAD409E2",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "SOUNDBAR",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0x430F801D",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "SOUNDBAR",
+    "function": "MODE",
+    "protocol": "NEC",
+    "hexCode": "0x295D6FBF",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "SOUNDBAR",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0xBDC14F1F",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "FAN",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x711C21C9",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "FAN",
+    "function": "FAN_SPEED",
+    "protocol": "NEC",
+    "hexCode": "0x8D3AED99",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "FAN",
+    "function": "SWING",
+    "protocol": "NEC",
+    "hexCode": "0xB4A69F3C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "FAN",
+    "function": "TIMER",
+    "protocol": "NEC",
+    "hexCode": "0x6D7CE3C9",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "PROJECTOR",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x8F9797B0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "PROJECTOR",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0x0279B6A6",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "PROJECTOR",
+    "function": "MENU",
+    "protocol": "NEC",
+    "hexCode": "0x1CA3C448",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "PROJECTOR",
+    "function": "DPAD_UP",
+    "protocol": "NEC",
+    "hexCode": "0x13432E61",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "PROJECTOR",
+    "function": "DPAD_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xF1EEDBA3",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "PROJECTOR",
+    "function": "DPAD_LEFT",
+    "protocol": "NEC",
+    "hexCode": "0xE21342B0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "PROJECTOR",
+    "function": "DPAD_RIGHT",
+    "protocol": "NEC",
+    "hexCode": "0xB0E6A969",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "Philips",
+    "category": "PROJECTOR",
+    "function": "DPAD_OK",
+    "protocol": "NEC",
+    "hexCode": "0xE767DCEA",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "SET_TOP_BOX",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x26286BFB",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "SET_TOP_BOX",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0x8BABCE3B",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "SET_TOP_BOX",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x093923DE",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "SET_TOP_BOX",
+    "function": "CHANNEL_UP",
+    "protocol": "NEC",
+    "hexCode": "0xD5A804EB",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "SET_TOP_BOX",
+    "function": "CHANNEL_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x5E84F058",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_UP",
+    "protocol": "NEC",
+    "hexCode": "0x951F58D0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0x8D7248E2",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_LEFT",
+    "protocol": "NEC",
+    "hexCode": "0x25E97977",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_RIGHT",
+    "protocol": "NEC",
+    "hexCode": "0x6E068097",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "SET_TOP_BOX",
+    "function": "DPAD_OK",
+    "protocol": "NEC",
+    "hexCode": "0x20A04502",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "SET_TOP_BOX",
+    "function": "HOME",
+    "protocol": "NEC",
+    "hexCode": "0x0AB54BDE",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "SET_TOP_BOX",
+    "function": "BACK",
+    "protocol": "NEC",
+    "hexCode": "0x4EEA04E7",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "SET_TOP_BOX",
+    "function": "MENU",
+    "protocol": "NEC",
+    "hexCode": "0x5D59CD2A",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "SOUNDBAR",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0xE623A689",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "SOUNDBAR",
+    "function": "VOLUME_UP",
+    "protocol": "NEC",
+    "hexCode": "0xEEDEDB07",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "SOUNDBAR",
+    "function": "VOLUME_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xCBCEABDE",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "SOUNDBAR",
+    "function": "MUTE",
+    "protocol": "NEC",
+    "hexCode": "0xF8E1DAA7",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "SOUNDBAR",
+    "function": "MODE",
+    "protocol": "NEC",
+    "hexCode": "0xDC570131",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "SOUNDBAR",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0x0A368CE7",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "FAN",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0xE61FECC0",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "FAN",
+    "function": "FAN_SPEED",
+    "protocol": "NEC",
+    "hexCode": "0x5B9962C6",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "FAN",
+    "function": "SWING",
+    "protocol": "NEC",
+    "hexCode": "0x35C7936C",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "FAN",
+    "function": "TIMER",
+    "protocol": "NEC",
+    "hexCode": "0xAE9BEC36",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "PROJECTOR",
+    "function": "POWER",
+    "protocol": "NEC",
+    "hexCode": "0x3FE12E47",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "PROJECTOR",
+    "function": "INPUT_SOURCE",
+    "protocol": "NEC",
+    "hexCode": "0xAABC25FA",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "PROJECTOR",
+    "function": "MENU",
+    "protocol": "NEC",
+    "hexCode": "0x1A50AEC3",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "PROJECTOR",
+    "function": "DPAD_UP",
+    "protocol": "NEC",
+    "hexCode": "0x5A8AAECA",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "PROJECTOR",
+    "function": "DPAD_DOWN",
+    "protocol": "NEC",
+    "hexCode": "0xC7B5B2BC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "PROJECTOR",
+    "function": "DPAD_LEFT",
+    "protocol": "NEC",
+    "hexCode": "0x8F5486B7",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "PROJECTOR",
+    "function": "DPAD_RIGHT",
+    "protocol": "NEC",
+    "hexCode": "0xE256A6DC",
+    "carrierFrequencyHz": 38000
+  },
+  {
+    "brand": "TCL",
+    "category": "PROJECTOR",
+    "function": "DPAD_OK",
+    "protocol": "NEC",
+    "hexCode": "0xDFED2C43",
+    "carrierFrequencyHz": 38000
+  }
+]

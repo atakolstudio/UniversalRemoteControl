@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Universal Remote Control</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Cihazlarım</string>
+    <string name="dashboard_empty">Henüz cihaz eklemediniz. Başlamak için + butonuna dokunun.</string>
+    <string name="add_device_fab">Cihaz ekle</string>
+    <string name="last_used">Son kullanım: %1$s</string>
+    <string name="device_type_ir">IR</string>
+    <string name="device_type_wifi">WiFi</string>
+    <string name="device_type_hybrid">Hibrit</string>
+
+    <!-- Add device -->
+    <string name="add_device_title">Yeni Cihaz Ekle</string>
+    <string name="select_category">Cihaz türü seçin</string>
+    <string name="select_brand">Marka seçin</string>
+    <string name="select_model">Model seçin (opsiyonel)</string>
+    <string name="device_name_hint">Cihaz adı (ör. Salon TV)</string>
+    <string name="connection_type">Bağlantı türü</string>
+    <string name="ir_no_blaster_warning">Bu cihazda IR blaster bulunamadı. Yalnızca WiFi cihazlar eklenebilir.</string>
+    <string name="wifi_ip_hint">IP adresi</string>
+    <string name="wifi_mac_hint">MAC adresi (Wake-on-LAN için)</string>
+    <string name="learn_ir_code">IR kodu öğren</string>
+    <string name="manual_ir_code">Manuel kod gir</string>
+    <string name="save">Kaydet</string>
+    <string name="cancel">İptal</string>
+
+    <!-- Remote -->
+    <string name="power">Güç</string>
+    <string name="volume_up">Ses aç</string>
+    <string name="volume_down">Ses kıs</string>
+    <string name="mute">Sessiz</string>
+    <string name="channel_up">Kanal yukarı</string>
+    <string name="channel_down">Kanal aşağı</string>
+    <string name="mode">Mod</string>
+    <string name="temperature">Sıcaklık</string>
+    <string name="swing">Salınım</string>
+    <string name="fan_speed">Fan hızı</string>
+    <string name="home">Ana ekran</string>
+    <string name="back">Geri</string>
+    <string name="settings_button">Ayarlar</string>
+    <string name="ok_button">Tamam</string>
+    <string name="ir_not_available">Bu cihazda IR gönderici yok, komut gönderilemedi.</string>
+    <string name="command_sent">Komut gönderildi: %1$s</string>
+
+    <!-- Favorites / Macros -->
+    <string name="favorites_title">Favoriler</string>
+    <string name="macros_title">Makrolar</string>
+    <string name="create_macro">Makro oluştur</string>
+    <string name="macro_name_hint">Makro adı (ör. Film Modu)</string>
+    <string name="add_step">Adım ekle</string>
+    <string name="run_macro">Çalıştır</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="settings_theme">Tema</string>
+    <string name="theme_system">Sistem</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
+    <string name="settings_language">Dil</string>
+    <string name="settings_backup">Yedekle (JSON dışa aktar)</string>
+    <string name="settings_restore">Geri yükle (JSON içe aktar)</string>
+    <string name="settings_debug_mode">Hata ayıklama modu</string>
+    <string name="settings_permissions">İzin yönetimi</string>
+    <string name="settings_about">Hakkında</string>
+
+    <!-- Widget / Tile -->
+    <string name="quick_tile_label">Hızlı Kumanda</string>
+    <string name="widget_default_device">Cihaz seçilmedi</string>
+
+    <!-- Errors -->
+    <string name="error_generic">Bir hata oluştu, tekrar deneyin.</string>
+    <string name="error_network">Cihaza ağ üzerinden ulaşılamadı.</string>
+    <string name="error_permission_denied">Bu özellik için izin gerekli.</string>
+</resources>
