@@ -39,6 +39,12 @@ interface IrCodeDao {
     @Query("SELECT DISTINCT brand FROM ir_codes WHERE category = :category ORDER BY brand")
     suspend fun getBrandsForCategory(category: DeviceCategory): List<String>
 
+    @Query(
+        """DELETE FROM ir_codes WHERE brand = :brand AND category = :category
+           AND function = :function AND deviceId IS NULL"""
+    )
+    suspend fun deletePreset(brand: String, category: DeviceCategory, function: RemoteFunction)
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertAll(codes: List<IrCodeEntity>)
 

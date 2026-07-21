@@ -12,6 +12,8 @@ data class PresetIrCodeDto(
     val category: String,
     val function: String,
     val protocol: String,
-    val hexCode: String?,
-    val carrierFrequencyHz: Int = 38000
+    val hexCode: String? = null,
+    val rawPattern: String? = null,
+    val carrierFrequencyHz: Int = 38000,
+    val sourceModel: String? = null
 )

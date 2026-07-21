@@ -41,7 +41,7 @@ util/           Quick Settings Tile, App Widget provider
 ## Ele alınan özellik listesi
 
 - Dashboard: grid halinde cihaz kartları (isim, marka/model, bağlantı türü).
-- Cihaz ekleme: 20+ marka x TV/Klima/STB/Fan/Soundbar/Projeksiyon önceden tanımlı IR kod tablosu (`assets/preset_ir_codes.json`, 604 satır), WiFi cihazlar için IP/MAC + protokol seçimi.
+- Cihaz ekleme: 20+ marka x TV/Klima/STB/Fan/Soundbar/Projeksiyon önceden tanımlı IR kod tablosu (`assets/preset_ir_codes.json`, 604 satır, temsili/placeholder), **artı 11 büyük marka için [LIRC remotes database](https://lirc.sourceforge.net/remotes/)'den dönüştürülmüş gerçek TV kodları** (`assets/lirc_ir_codes.json`, 206 fonksiyon - Samsung, LG, Sony, Panasonic, JVC, Hitachi, Thomson, Sharp, Philips, Toshiba, Vestel). Gerçek kodlar, aynı marka+kategori+fonksiyon için placeholder'ın üzerine otomatik yazılır (bkz. `PresetIrCodeSeeder`). Kaynak dosyalar ve dönüştürme yöntemi `assets/lirc_sources/SOURCES.md` içinde belgelenmiştir. WiFi cihazlar için IP/MAC + protokol seçimi de mevcuttur.
 - IR gönderim: `ConsumerIrManager` ile gerçek gönderim, IR donanımı yoksa açık uyarı.
 - WiFi gönderim: Samsung SmartView (WebSocket), LG WebOS (SSAP WebSocket), genel HTTP, SSDP/UPnP ağ taraması (Add Device ekranından "Ağda Tara").
 - Manuel IR kod girişi: kumanda ekranında bir tuşa **uzun basarak** hex kod atama/override.
@@ -57,7 +57,7 @@ util/           Quick Settings Tile, App Widget provider
 Bu bir iskelet/temel sürümdür, üretime hazır bitmiş bir ürün değildir. Aşağıdaki noktalar bilerek basitleştirilmiştir:
 
 1. **IR "öğrenme" (learning) gerçek anlamda yoktur.** Android'de üçüncü parti uygulamalara açık, standart bir IR *alma* API'si yok (`ConsumerIrManager` sadece gönderir). Bu yüzden "eski kumandayı telefona tutup öğret" akışı platformda genel olarak mümkün değil; `ir/IrLearningHelper.kt` bunu açıkça belgeliyor ve uygulama bunun yerine manuel kod girişi sunuyor.
-2. **Önceden tanımlı IR kodları temsili/placeholder'dır.** `preset_ir_codes.json` içindeki hex kodlar gerçek üretici kod tablolarından değil, protokol formatına uygun şekilde programatik olarak üretildi. Gerçek cihazlarda çalışmaları garanti değildir — üretime almadan önce doğrulanmış bir IR kod veritabanıyla (örn. lisanslı bir sağlayıcı veya kendi ölçümleriniz) değiştirilmelidir. Klima (AC) kodları özellikle çoğu markada NEC'ten çok daha uzun "raw" darbe dizileri gerektirir; buradaki AC girişleri `RAW` protokolüyle işaretli ama gerçek zaman tabloları içermiyor.
+2. **Önceden tanımlı IR kodlarının çoğu hâlâ temsili/placeholder'dır — ama artık 11 marka için gerçek TV kodları var.** `preset_ir_codes.json` içindeki hex kodlar protokol formatına uygun şekilde programatik olarak üretildi ve gerçek cihazlarda çalışmaları garanti değil. Ancak `lirc_ir_codes.json` içinde Samsung/LG/Sony/Panasonic/JVC/Hitachi/Thomson/Sharp/Philips/Toshiba/Vestel için [LIRC veritabanından](https://lirc.sourceforge.net/remotes/) dönüştürülmüş **gerçek** sinyaller var (bkz. `assets/lirc_sources/SOURCES.md`) — bunlar markaya göre yalnızca tek bir örnek modelden alındı, o modelin tüm tuşlarını kapsamayabilir, ve diğer 9+ marka ile Klima/STB/Fan/Soundbar/Projeksiyon kategorileri hâlâ tamamen placeholder'a dayanıyor. Klima (AC) kodları özellikle çoğu markada NEC'ten çok daha uzun "raw" darbe dizileri gerektirir; buradaki AC girişleri `RAW` protokolüyle işaretli ama gerçek zaman tabloları içermiyor.
 3. **LG WebOS SSAP entegrasyonu basitleştirilmiştir.** Gerçek SSAP el sıkışması (izin istemleri, `ssap://com.webos.service.networkinput/...` pointer-socket akışı ile gerçek fare/tuş simülasyonu) daha ayrıntılıdır; burada tek istekle en yaygın tuş gönderimini gösteren minimal bir örnek var. `client-key` kalıcılığı (madde 5'e bakın) artık otomatik.
 4. **AGP/Kotlin sürümleri** bu dosyaların yazıldığı an itibarıyla kararlı olarak mevcut olanlardır (AGP 8.6.1 / Kotlin 2.0.21); "AGP 9.x" gibi henüz yayınlanmamış sürümler yerine çalışır durumda olan en güncel kararlı sürümler seçildi. `compileSdk/targetSdk = 36` bırakıldı; SDK Manager'da mevcut değilse Android Studio güncelleme isteyecektir.
 5. **Gradle wrapper JAR dosyası eklenmedi** (`gradlew`/`gradlew.bat` script'leri bu paylaşımda yok) — Android Studio'da açtığınızda "Gradle wrapper oluştur" istemi otomatik gelir, ya da `gradle wrapper` komutunu kendi makinenizde çalıştırabilirsiniz. CI (`.github/workflows/build.yml`) buna ihtiyaç duymadan doğrudan `gradle` kullanır.
@@ -66,7 +66,7 @@ Bu bir iskelet/temel sürümdür, üretime hazır bitmiş bir ürün değildir. 
 
 ## Yol haritası (öneriler)
 
-- Gerçek/lisanslı bir IR kod veritabanı entegrasyonu.
+- Kalan markalar (Vestel'in eksik ses/kanal tuşları dahil) ve Klima/STB/Fan/Soundbar/Projeksiyon kategorileri için de LIRC'ten gerçek kod dönüşümü yapmak; marka başına birden fazla model kapsamak.
 - Widget'ı Glance (Compose tabanlı widget API) ile yeniden yazmak.
 - Enstrümantasyon/birim testleri (Room DAO testleri, IrProtocolEncoder testleri).
 - SSDP tarama sonucu protokol tahmininin yanlış olduğu durumlar için kullanıcıya "bu doğru değil" düzeltme akışı.
