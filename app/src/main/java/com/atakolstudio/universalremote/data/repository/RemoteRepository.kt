@@ -98,7 +98,12 @@ class RemoteRepository @Inject constructor(
 
         return if (useWifi) {
             when (val result = wifiCommandRouter.send(device, function)) {
-                is WifiCommandResult.Sent -> CommandOutcome.Success
+                is WifiCommandResult.Sent -> {
+                    if (result.newAuthToken != null && result.newAuthToken != device.authToken) {
+                        deviceDao.update(device.copy(authToken = result.newAuthToken))
+                    }
+                    CommandOutcome.Success
+                }
                 is WifiCommandResult.Failed ->
                     if (device.connectionType == ConnectionType.HYBRID) {
                         sendIr(device, function)

@@ -61,6 +61,16 @@ class SamsungSmartViewSender @Inject constructor(
             var socket: WebSocket? = null
             socket = okHttpClient.newWebSocket(request, object : WebSocketListener() {
                 override fun onOpen(webSocket: WebSocket, response: OkResponse) {
+                    // The TV's very first message on a fresh pairing is an "ms.channel.connect"
+                    // event carrying the new session token; on already-paired reconnects it
+                    // arrives before we send anything, so we wait for onMessage either way
+                    // before sending the actual key press.
+                }
+
+                override fun onMessage(webSocket: WebSocket, text: String) {
+                    val json = runCatching { JSONObject(text) }.getOrNull()
+                    val newToken = json?.optJSONObject("data")?.optString("token")?.takeIf { it.isNotBlank() }
+
                     val payload = JSONObject().apply {
                         put("method", "ms.remote.control")
                         put("params", JSONObject().apply {
@@ -71,18 +81,13 @@ class SamsungSmartViewSender @Inject constructor(
                         })
                     }
                     webSocket.send(payload.toString())
-                }
-
-                override fun onMessage(webSocket: WebSocket, text: String) {
-                    // First message typically carries the pairing token; persisting it
-                    // is left to the calling repository layer via the returned result.
                     webSocket.close(1000, null)
-                    if (cont.isActive) cont.resume(WifiCommandResult.Sent)
+                    if (cont.isActive) cont.resume(WifiCommandResult.Sent(newAuthToken = newToken))
                 }
 
                 override fun onMessage(webSocket: WebSocket, bytes: ByteString) {
                     webSocket.close(1000, null)
-                    if (cont.isActive) cont.resume(WifiCommandResult.Sent)
+                    if (cont.isActive) cont.resume(WifiCommandResult.Sent())
                 }
 
                 override fun onFailure(webSocket: WebSocket, t: Throwable, response: OkResponse?) {

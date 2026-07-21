@@ -30,7 +30,7 @@ class GenericHttpCommandSender @Inject constructor(
                 val request = Request.Builder().url(url).get().build()
                 okHttpClient.newCall(request).execute().use { response ->
                     if (response.isSuccessful) {
-                        WifiCommandResult.Sent
+                        WifiCommandResult.Sent()
                     } else {
                         WifiCommandResult.Failed("HTTP ${response.code}")
                     }

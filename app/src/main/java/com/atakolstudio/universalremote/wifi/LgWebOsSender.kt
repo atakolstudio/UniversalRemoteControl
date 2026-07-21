@@ -65,13 +65,9 @@ class LgWebOsSender @Inject constructor(
                     val response = runCatching { JSONObject(text) }.getOrNull()
                     when (response?.optString("type")) {
                         "registered" -> {
-                            val command = JSONObject().apply {
-                                put("type", "request")
-                                put("id", "btn_0")
-                                put("uri", "ssap://com.webos.service.networkinput/getPointerInputSocket")
-                            }
-                            // Button presses use the network-input socket in real SSAP;
-                            // for simplicity we send the high-level system command directly.
+                            val newClientKey = response.optJSONObject("payload")
+                                ?.optString("client-key")?.takeIf { it.isNotBlank() }
+
                             val direct = JSONObject().apply {
                                 put("type", "request")
                                 put("id", "btn_1")
@@ -80,7 +76,7 @@ class LgWebOsSender @Inject constructor(
                             }
                             webSocket.send(direct.toString())
                             webSocket.close(1000, null)
-                            if (cont.isActive) cont.resume(WifiCommandResult.Sent)
+                            if (cont.isActive) cont.resume(WifiCommandResult.Sent(newAuthToken = newClientKey))
                         }
                         "error" -> {
                             webSocket.close(1000, null)
