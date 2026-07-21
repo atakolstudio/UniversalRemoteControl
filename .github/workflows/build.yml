@@ -7,6 +7,9 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,8 +24,6 @@ jobs:
           java-version: '17'
 
       - name: Ensure Android SDK platform 36 + matching build-tools are installed
-        env:
-          ANDROID_SDK_ROOT: ${{ env.ANDROID_HOME }}
         run: |
           yes | sdkmanager --licenses > /dev/null 2>&1 || true
           sdkmanager "platform-tools" \
@@ -39,7 +40,38 @@ jobs:
           gradle-version: 8.9
 
       - name: Build debug APK
-        run: gradle assembleDebug --stacktrace --info
+        id: build
+        run: |
+          set +e
+          gradle assembleDebug --stacktrace --info > /tmp/build_output.log 2>&1
+          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
+          tail -n 400 /tmp/build_output.log
+          exit 0
+
+      # Log storage on GitHub's own Actions UI lives on an Azure blob host that isn't
+      # reachable from every automated environment, so we also persist the raw output
+      # as a plain file in the repo (readable via raw.githubusercontent.com) whenever
+      # the build did not succeed, to make remote debugging possible.
+      - name: Commit build log for diagnostics (only on failure)
+        if: always()
+        run: |
+          if [ "${{ steps.build.outputs.exit_code }}" != "0" ]; then
+            mkdir -p ci-logs
+            cp /tmp/build_output.log ci-logs/last-build-failure.log
+            git config user.email "ci@atakolstudio.dev"
+            git config user.name "CI Bot"
+            git add ci-logs/last-build-failure.log
+            git commit -m "ci: update last-build-failure.log" || echo "nothing to commit"
+            git push || echo "push failed, continuing"
+          fi
+
+      - name: Fail the job if the build actually failed
+        if: always()
+        run: |
+          if [ "${{ steps.build.outputs.exit_code }}" != "0" ]; then
+            echo "Gradle build failed with exit code ${{ steps.build.outputs.exit_code }}"
+            exit 1
+          fi
 
       - name: Upload APK artifact
         if: success()
@@ -47,13 +79,3 @@ jobs:
         with:
           name: app-debug-apk
           path: app/build/outputs/apk/debug/*.apk
-
-      - name: Upload build log on failure
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-failure-info
-          path: |
-            **/build/outputs/logs/**
-            **/build/reports/**
-          if-no-files-found: ignore
