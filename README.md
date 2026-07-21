@@ -7,6 +7,8 @@ Kotlin + Jetpack Compose ile yazılmış IR + WiFi evrensel kumanda uygulaması.
 
 ## Kurulum
 
+**CI durumu:** GitHub Actions'daki "Android CI Build" workflow'u her push'ta `assembleDebug` çalıştırıp APK üretiyor — [Actions sekmesinden](https://github.com/atakolstudio/UniversalRemoteControl/actions) takip edebilir, üretilen `app-debug-apk` artifact'ini indirebilirsiniz.
+
 1. Android Studio (Ladybug/Koala veya üstü) ile projeyi açın (`File > Open` → bu klasör).
 2. Gradle senkronizasyonunu bekleyin (ilk senkron internet gerektirir: AGP/Kotlin/AndroidX bağımlılıkları indirilecek).
 3. `compileSdk`/`targetSdk = 36` (Android 16) seçili — Android Studio SDK Manager'dan bu platformu indirmeniz istenebilir. İndiremiyorsanız `app/build.gradle.kts` içinde geçici olarak 35'e düşürebilirsiniz, kodun geri kalanı değişmeden derlenir.
