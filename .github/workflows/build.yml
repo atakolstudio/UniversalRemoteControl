@@ -20,22 +20,40 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v3
-
-      - name: Grant execute permission for gradlew
-        run: chmod +x gradlew || true
-
-      - name: Build with Gradle (generates wrapper if missing)
+      - name: Ensure Android SDK platform 36 + matching build-tools are installed
+        env:
+          ANDROID_SDK_ROOT: ${{ env.ANDROID_HOME }}
         run: |
-          if [ ! -f "./gradlew" ]; then
-            gradle wrapper --gradle-version 8.9
-            chmod +x gradlew
-          fi
-          ./gradlew assembleDebug --stacktrace
+          yes | sdkmanager --licenses > /dev/null 2>&1 || true
+          sdkmanager "platform-tools" \
+                     "platforms;android-36" "platforms;android-35" \
+                     "build-tools;36.0.0" "build-tools;35.0.0" || true
+
+      # AGP 8.6.1 (used in build.gradle.kts) is only compatible with Gradle 8.7-8.10.
+      # The runner's ambient/default "gradle" can resolve to a much newer major version
+      # (observed: 9.x) which breaks the build - so we pin an explicit, known-compatible
+      # version here instead of relying on whatever setup-gradle defaults to.
+      - name: Setup Gradle 8.9
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: 8.9
+
+      - name: Build debug APK
+        run: gradle assembleDebug --stacktrace --info
 
       - name: Upload APK artifact
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: app-debug-apk
           path: app/build/outputs/apk/debug/*.apk
+
+      - name: Upload build log on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-failure-info
+          path: |
+            **/build/outputs/logs/**
+            **/build/reports/**
+          if-no-files-found: ignore
