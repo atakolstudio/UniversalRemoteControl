@@ -18,6 +18,7 @@ import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.Tv
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ExtendedFloatingActionButton
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
@@ -40,6 +41,7 @@ import com.atakolstudio.universalremote.data.local.entity.ConnectionType
 import com.atakolstudio.universalremote.data.local.entity.DeviceCategory
 import com.atakolstudio.universalremote.data.local.entity.DeviceEntity
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DashboardScreen(
     onOpenDevice: (Long) -> Unit,
@@ -96,6 +98,7 @@ fun DashboardScreen(
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun DeviceCard(device: DeviceEntity, onClick: () -> Unit) {
     Card(
